@@ -1,7 +1,6 @@
 /**
- *  Tibber Thermostat
- *
- *  Copyright 2017 Tibber AS
+ *  Tibber extension to utilize temp.-sensors and smartplugs instead of thermostats
+ *  Extension based on "Tibber Thermostat" (Copyright 2017 Tibber AS)
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -14,14 +13,14 @@
  *
  */
 definition(
-    name: "Tibber Thermostat",
+    name: "Tibber Temp and Switch",
     namespace: "Tibber",
-    author: "Tibber developer",
-    description: "Enable smart heating through Tibber. Make use of the Tibber and your SmartThings thermostats (you select which ones) are automatically adjusted based on your daily schedules, energy prices, your home\u2019s thermal capacity and weather information.",
+    author: "Johannes Kmieciak",
+    description: "Enable smart heating through Tibber using temp.-sensors and smartplugs.",
     category: "Convenience",
-    iconUrl: "https://store.tibber.com/no/wp-content/uploads/sites/8/2017/12/tibber_app_logo.png",
-    iconX2Url: "https://store.tibber.com/no/wp-content/uploads/sites/8/2017/12/tibber_app_logo.png",
-    iconX3Url: "https://store.tibber.com/no/wp-content/uploads/sites/8/2017/12/tibber_app_logo.png",
+    iconUrl: "https://raw.githubusercontent.com/jokmie/tibber-integration/master/TibberJKIcon.png",
+    iconX2Url: "https://raw.githubusercontent.com/jokmie/tibber-integration/master/TibberJKIcon.png",
+    iconX3Url: "https://raw.githubusercontent.com/jokmie/tibber-integration/master/TibberJKIcon.png",
     oauth:true)
 
 mappings {
